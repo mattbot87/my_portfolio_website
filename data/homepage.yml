@@ -1,0 +1,232 @@
+head:
+  title: "Matt Simonson's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Matt Simonson."
+  subtitle: "Econometrics to Data Science: Evolving Business Insights Through Data"
+  description: "Matt, is a Senior Business Analyst at Abbott with a Master's in Applied Economics, blends econometrics expertise with data science. His portfolio showcases transformative data-driven projects leveraging R programming, illustrating his transition from analytics to data science innovation."
+  image:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+  imageMobile:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Matt"
+    URL: "mailto:mattsimonson419@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/matthewjamessimonson/"
+
+    - icon: "github"
+      URL: "https://github.com"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content:
+    <p class="lead">
+    <strong>Driven by a passion for transforming complex data into actionable insights</strong>, 
+    I am a Senior Business Analyst at Abbott, specializing in leveraging data to drive significant business improvements. 
+    My expertise in data analysis and automation, honed over three years in the labeling department, 
+    has been pivotal in advancing initiatives such as the Universal Addendum Labeling project and 
+    supporting the Abbott Diagnostics team. With a proficiency in R programming, 
+    I create impactful dashboards, scripts, and reports that synchronize data insights with strategic business objectives.
+    </p>
+    <p class="lead">
+    <strong>My journey began</strong> in retail management, where I cultivated key skills in communication, leadership, 
+    and strategic problem-solving. This foundational experience seamlessly transitioned into my data analysis career, 
+    where I consistently apply these skills to tackle complex data challenges. Further enriching my expertise, 
+    I pursued a Master of Science in Applied Economics from the University of Minnesota, deepening my knowledge in statistics, 
+    machine learning, and data visualization.
+    </p>
+    <p class="lead">
+    Today, as I aspire to transition into a data scientist role, I am passionate about employing my skills in R and 
+    econometrics to foster innovation and unearth critical insights for business growth. My commitment lies in 
+    leveraging my analytical capabilities to make a lasting impact in the field of data science, continuously 
+    seeking new challenges and opportunities for professional growth and contribution.
+    </p>
+    
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/matthewjamessimonson/"
+  image:
+    x: "img/who-am-i/0.jpg"
+    _2x: "img/who-am-i/0.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 15+ years of experience working with companies from all over the world. I design & develop data science products to help businesses increase profitability and improve customer experience."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://drive.google.com/file/d/11xnvsSzHrpLHCMtsu8jD_1FfcFS_B3_2/view?usp=sharing"
+
+  items:
+    - title: "Senior Business Analyst"
+      company: "Abbott Laboratories"
+      duration: "Aug 2020 - Present"
+
+    - title: "Labeling Systems and Data Analyst"
+      company: "Abbott Laboratories"
+      duration: "Apr 2021 - Aug 2020"
+
+    - title: "Assistant Store Manager"
+      company: "Walgreens"
+      duration: "Jan 2012 - Jan 2017"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Minnesota, Twin Cities"
+      year: "2019-2022"
+      degree: "Master of Science in Applied Economics"
+
+    - university: "University of Minnesota, Twin Cities"
+      year: "2017-2019"
+      degree: "Bachelor of Science in Applied Economics"
+
+    - university: "Minneapolis Community & Technical College"
+      year: "2015-2017"
+      degree: "Associate of Arts in Liberal Arts & Sciences"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Sales Demand Forecast Application"
+      description: "This application helps Marketing & Sales identify trends in product demand. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
+      image:
+        x: "img/works/app_sales_demand_forecast.jpg"
+        _2x: "img/works/app_sales_demand_forecast.jpg"
+      is_even: true
+
+    - title: "Product Price Recommendation"
+      description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
+      image:
+        x: "img/works/app_cannondale_price_prediction.jpg"
+        _2x: "img/works/app_cannondale_price_prediction.jpg"
+      is_even: false
+
+
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+
+    - name: "Justin Kurland, PhD"
+      position: "Lead Data Scientist, Northwestern Mutual"
+      content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
+      image:
+        x: "img/testimonials/justin.jpg"
+        _2x: "img/testimonials/justin.jpg"
+
+    - name: "Chris Selig"
+      position: "Data Scientist"
+      content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
+      image:
+        x: "img/testimonials/chris.jpg"
+        _2x: "img/testimonials/chris.jpg"
+
+
+
+    - name: "Mohana Krishna Chittoor"
+      position: "Lead Data Scientist, Money View"
+      content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
+      image:
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact Matt"
+
+  image:
+    x: "img/who-am-i/0.jpg"
+    _2x: "img/who-am-i/0.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:mattsimonson419@gmail.com'
+
+  phone:
+    title: "Phone Number"
+    number: "(952)465-6884"
+  email:
+    title: "Email"
+    email: '<a href="mailto:your-email@gmail.com">mattsimonson419@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Minnetonka, MN"
+
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
